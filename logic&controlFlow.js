@@ -24,7 +24,7 @@
 
 const dogs = 5;
 
-if (dogs) {
+if ("dogs") {
   console.log(`You have ${dogs} dogs`);
 } else {
   console.log("You have no dogs");
