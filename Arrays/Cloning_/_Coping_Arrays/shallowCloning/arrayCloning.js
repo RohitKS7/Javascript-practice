@@ -1,5 +1,6 @@
 // Since Array is a Reference Type, cloning it might seem hard.
 // But it's pretty simple with this Method.
+// ⁡⁢⁣⁢Cloning with this methods are also known as 'Shallow Clone'.⁡
 
 // 1. Spread Operator:-> This operator 'spreads the value of string, array and object individually. Cloning with this method also known as 'Shallow Clone'.
 
