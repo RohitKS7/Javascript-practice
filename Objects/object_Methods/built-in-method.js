@@ -57,7 +57,7 @@ const admin = Object.freeze(user);
 admin.username = "kumar";
 console.log(admin); // nothing changed in user object.
 
-// ⁡⁣⁢⁣𝟱⁡. Object.seal() -> prevents new properties from being added to an object, but allows the modification of existing properties.
+// ⁡⁣⁢⁣𝟱⁡. Object.seal() -> prevents adding new properties and deleting existing ones from an object, but allows the modification of existing properties.
 
 const user2 = {
   username: "Kumar",
@@ -67,3 +67,8 @@ const admin2 = Object.seal(user2);
 
 admin2.password = "098009";
 console.log(admin2);
+
+// ⁡⁣⁢⁣𝟲⁡. To Delete a property -
+delete user2.password; // this will remove the password key-value pair from that object.
+
+console.log(user2);

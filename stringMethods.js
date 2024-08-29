@@ -20,7 +20,7 @@
 // const hobbies = "I love HTML, CSS and JavaScript";
 
 // // i) indexOf() =>
-// const subString = hobbies.indexOf("HTML"); // if result is "-1" that means no matching substring found in that string.
+// const subString = hobbies.indexOf("HTML"); // if result is "-1" that means no matching substring was found in that string.
 
 // console.log(subString);
 

@@ -8,7 +8,7 @@ const name = "John";
 
 console.log("name");
 
-// ⁡⁢⁣⁢𝗗𝗮𝘁𝗮 𝗧𝘆𝗽𝗲𝘀 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝘁𝗼 𝘀𝘁𝗼𝗿𝗲 𝗶𝗻 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀⁡
+// ⁡⁢⁣⁢𝗗𝗮𝘁𝗮 𝗧𝘆𝗽𝗲𝘀 𝗮𝗹𝗹𝗼𝘄𝗲s us 𝘁𝗼 𝘀𝘁𝗼𝗿𝗲 data 𝗶𝗻 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀⁡
 
 const string = "I'm John String"; // String is just a TEXT inside qoute
 const backticks = `I'm also ${string}`; // backticks are used to make dynamic data
