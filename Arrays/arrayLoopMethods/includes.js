@@ -1,6 +1,6 @@
 // 𝗔𝗿𝗿𝗮𝘆 ⁡⁣⁢⁣𝗜𝗻𝗰𝗹𝘂𝗱𝗲𝘀⁡ - (Returns 'True' or 'False')
 
-// Array Includes checks if a certain is included in an array or not.
+// Array Includes checks if a certain element is included in an array or not.
 
 // Array Includes is case sensitive.
 

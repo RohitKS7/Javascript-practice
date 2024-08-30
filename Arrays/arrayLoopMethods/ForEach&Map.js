@@ -22,9 +22,7 @@ console.log(returnValue); // undefined
 // 4. **Typical Use Case**: Use `forEach` when you need to perform an operation on each element of the array and do not need to store or return the results.
 
 // Use When -
-//  You want to do something with each of the array elements
-// Don't use When -
-//  You want to stop or break the loop when some condition is true. (basically don't use it when you don't wanna do something with each and every element)
+// You wanna modifiy the elements in original array without returning the results.
 //  Promises won't work in "forEach", So don't use it in async code
 
 // Example -
@@ -35,7 +33,7 @@ numbers.forEach((number) => {
   sum += number;
 });
 
-console.log(sum);
+console.log(sum); // 197
 
 // 𝟮. 𝗔𝗿𝗿𝗮𝘆 ⁡⁣⁢⁣𝗠𝗮𝗽⁡ - (immutable)
 const inventory = [

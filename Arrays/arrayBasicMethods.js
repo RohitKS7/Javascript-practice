@@ -1,4 +1,4 @@
-// ⁡⁢⁣⁢𝗔𝗥𝗥𝗔𝗬 𝗠𝗘𝗧𝗛𝗢𝗗𝗦⁡
+// ⁡⁢⁣⁢𝗔𝗥𝗥𝗔𝗬 Adding and Removing 𝗠𝗘𝗧𝗛𝗢𝗗𝗦⁡
 const names = ["Jon", "Bob", "David", "Mark"];
 
 // 𝟭. 𝗔𝗿𝗿𝗮𝘆 𝗣𝘂𝘀𝗵 - Adds a new element at the end of the array

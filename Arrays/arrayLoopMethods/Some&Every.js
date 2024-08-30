@@ -1,7 +1,7 @@
 const array = [1, 2, 3, 4, 5];
 
 // Array Some -
-// "Some" method checks is Atleast 1 element is greater then 3, return boolean.
+// "Some" method checks if Atleast 1 element is greater then 3, return boolean.
 console.log(array.some((number) => number > 3)); // True
 
 // Array Every -
