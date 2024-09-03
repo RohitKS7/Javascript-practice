@@ -1,32 +1,37 @@
-// Selecting Elements
+// ADDING an element from script.
+const heading = document.createElement("h1");
 
-//⁡⁣⁢⁣ 𝗕𝘆 𝗜𝗗⁡
+const body = document.querySelector("body");
 
-let byID = document.getElementById("id-of-test");
+// append or add the heading variable/h1-element in body.
+body.appendChild(heading);
 
-console.log(byID);
+// Content of Heading
+heading.innerText = "JavaScript Document Nodes";
 
-let byId = document.querySelector("#id-of-test");
+// REMOVING an element
+heading.remove();
 
-console.log(byId);
+// Getting Subjects List
+const subjects = document.querySelector(".subjects");
+console.log(subjects);
 
-// ⁡⁣⁢⁣𝗕𝘆 𝗖𝗹𝗮𝘀𝘀⁡
+// Getting First Child Element from subjects list
+const firstElement = subjects.firstElementChild;
+console.log(firstElement);
 
-let byCLASS = document.getElementsByClassName("class-of-test");
+// Getting Last Child Element from subjects list
+const lastElement = subjects.lastElementChild;
+console.log(lastElement);
 
-console.log(byCLASS);
+// Getting Element of specific CLASS from subjects list
+const favSubject = document.querySelector(".fav-subject");
+console.log(favSubject);
 
-let byClass = document.querySelector(".class-of-test");
+// Getting Previous Sibling of certain element
+const previousElement = favSubject.previousElementSibling;
+console.log(previousElement);
 
-console.log(byClass);
-
-//⁡⁣⁢⁣ 𝗕𝘆 𝗧𝗮𝗴⁡
-
-let byTAG = document.getElementsByTagName("h1");
-
-console.log(byTAG);
-
-// ⁡⁣⁣⁢All 'H1' elements with class of test⁡
-let byTag = document.querySelectorAll("h2.test");
-
-console.log(byTag);
+// Getting Parent element of an element
+const parentElement = favSubject.parentElement;
+console.log(parentElement);
