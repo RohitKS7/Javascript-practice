@@ -28,15 +28,9 @@ function getCommentsByPost(postId) {
   });
 }
 
-const fetchUserData = async () => {
-  try {
-    const user = await getUserData(1);
-    const posts = await getPostsByUser(user);
-    const comments = await getCommentsByPost(posts[0].postId);
-    console.log("Comments of post:", comments);
-  } catch (error) {
-    console.error(error);
-  }
-};
-
-fetchUserData();
+// Chaining promises to avoid callback hell
+getUserData(1)
+  .then((user) => getPostsByUser(user))
+  .then((posts) => getCommentsByPost(posts[0].postId))
+  .then((comments) => console.log("Comments for post:", comments))
+  .catch((error) => console.error(error));
